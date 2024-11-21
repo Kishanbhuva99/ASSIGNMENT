@@ -3,17 +3,17 @@
 #include<stdio.h>
 int main()
 {
-    int days,years;
+    float days,years;
 
     printf("Enter YEARS to convert into DAYS: ");
-    scanf("%d",&years);
+    scanf("%f",&years);
     days=years*365;
-    printf("%d Years Equal to %d DAYS",years,days);
+    printf("%.2f Years Equal to %.2f DAYS",years,days);
 
     printf("\nEnter DAYS to convert into YEARS: ");
-    scanf("%d",&days);
+    scanf("%f",&days);
     years=days/365;
-    printf("%d DAYS Equal to %d YEARS",days,years);
+    printf("%.2f DAYS Equal to %.2f YEARS",days,years);
 
 return 0;
 }

@@ -4,15 +4,15 @@
 #include<stdio.h>
 int main()
 {
-    int days,years,month;
+    float days,years,month;
 
     printf("Enter YEARS : ");
-    scanf("%d",&years);
+    scanf("%f",&years);
 
     days=years*365;
     month=years*12;
-    printf("%d Years Equal to %d DAYS",years,days);
-    printf("\n%d YEARS Equal to %d MONTHS",years,month);
+    printf("%.2f Years Equal to %.2f DAYS",years,days);
+    printf("\n%.2f YEARS Equal to %.2f MONTHS",years,month);
 
 return 0;
 }

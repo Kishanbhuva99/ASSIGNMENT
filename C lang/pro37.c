@@ -12,7 +12,7 @@ int main()
     printf("Enter number 2:");
     scanf("%d",&nm2);
    
-    printf("Enter character = :");
+    printf("Enter character(a=+,s=-,d=/,m=*,p=%%) = : ");
     scanf(" %c",&c);
     
     if(c=='a')
@@ -20,7 +20,7 @@ int main()
        //res=nm1+nm2;
         printf("sum is %d",nm1+nm2);
     }
-    else if (c=='b')
+    else if (c=='s')
     {
         printf("Subtraction is %d",nm1-nm2);
     }

@@ -3,18 +3,19 @@
 #include<stdio.h>
 int main()
 {
-    int seconds,hours,min1,min2;
+    float seconds,min1,min2;
+    float hours;
 
     printf("Enter MINUTS (for seconds) : ");
-    scanf("%d",&min1);
+    scanf("%f",&min1);
     printf("\nEnter MINUTS (more than 60 for hours) : ");
-    scanf("%d",&min2);
+    scanf("%f",&min2);
 
-    seconds=min1*60;
-    hours=min2/60;
+    seconds=min1*60.00;
+    hours=min2/60.00;
     printf("<<---------------------->>");
-    printf("\n%d MINUTES Equal to %d SECONDS",min1,seconds);
-    printf("\n%d MINUTES Equal to %d HOUORS",min2,hours);
+    printf("\n%.2f MINUTES Equal to %.2f SECONDS",min1,seconds);
+    printf("\n%.2f MINUTES Equal to %.2f HOUORS",min2,hours);
 
 return 0;
 }

@@ -3,16 +3,16 @@
 #include<stdio.h>
 int main()
 {
-    int days;
+    float days;
     float month;
 
     printf("Enter DAYS : ");
-    scanf("%d",&days);
+    scanf("%f",&days);
 
     month=days/30;
     // printf("days = %d",days);
     // printf("months = %.1f",month);
 
-    printf("\n%d Days is %.1f Months",days,month);
+    printf("\n%.2f Days is %.2f Months",days,month);
 return 0;
 }
