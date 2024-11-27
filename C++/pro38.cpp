@@ -1,5 +1,6 @@
-/*Write a program that asks for two numbers and displays their sum. Ensure this is 
-done after setting up the IDE */
+/*Write a C++ program that defines a class Calculator with functions for addition, 
+subtraction, multiplication, and division. Create objects to use these functions. */
+
 #include<iostream>
 
 using namespace std;

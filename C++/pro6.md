@@ -1,3 +1,10 @@
+# List and explain the main advantages of OOP over POP.
+
+
+
+
+
+
 What is OOP? List OOP concepts
 
 Object-Oriented Programming or OOPs refers to languages that use objects in programming.

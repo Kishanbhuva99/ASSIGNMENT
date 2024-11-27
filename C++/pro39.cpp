@@ -1,21 +1,14 @@
-/*  Define a class to represent a bank account. Include the following members:  
--------->>Data Member:  
--Name of the depositor  
--Account Number  
--Type of Account  
--Balance amount in the account  
------------>>Member Functions  
--To assign values  
--To deposited an amount 
--To withdraw an amount after checking balance  
--To display name and balance  */
+/*Create a class BankAccount with data members like balance and member 
+functions like deposit and withdraw. Implement encapsulation by keeping the 
+data members private. */
 
 #include<iostream>
 
 using namespace std;
 
-class bank
+class BankAccount
 {
+private:
 string depositor;
 int acc_num;
 string acc_type;
@@ -23,7 +16,7 @@ int balance;
 
 public:
 
-	bank() 
+	BankAccount() 
 	{
         depositor="kishan";
         acc_num=0121;
@@ -58,7 +51,7 @@ public:
     void showcustomer()
     {
 
-        std::cout << " Depositor name : " << depositor << endl;
+        std::cout << " \nDepositor name : " << depositor << endl;
         //std::cout << " Account number : " << acc_num<< endl;
         std::cout << " Acount  type : " << acc_type  << endl;
         std::cout << " Total balance  : " << balance << endl;
@@ -68,13 +61,13 @@ public:
 
 int main() 
 {
-	bank b;
+	BankAccount b;
     // b.getcustomer();
     // b.showcustomer();
     do
     {
         int choice;
-        std::cout << "1. Deposite amount :" << endl;
+        std::cout << "\n1. Deposite amount :" << endl;
         std::cout << "2. WITHDRAW amount :" << endl;
         std::cout << "3. SHOW BALANCE :" << endl;
         std::cout << "4. EXIT :" << endl;
@@ -83,6 +76,7 @@ int main()
         std::cin >> choice;
         if (choice==4)
         {
+            std::cout << "VISIT AGAIN";
             break;
         }
         switch (choice)

@@ -1,5 +1,6 @@
-/*Write a program that asks for two numbers and displays their sum. Ensure this is 
-done after setting up the IDE */
+/*Write a C++ program that defines functions for basic arithmetic operations (add, 
+subtract, multiply, divide). The main function should call these based on user input. */
+
 #include<iostream>
 
 using namespace std;
