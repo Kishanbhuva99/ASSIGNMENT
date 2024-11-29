@@ -6,9 +6,10 @@ using namespace std;
 
 int main()
 {
+    //ASSIGNMENT Operator
+    int a = 10, b = 5;
 
     // Arithmetic Operators
-    int a = 10, b = 5;
     cout << "Arithmetic Operators:" << endl;
     cout << "a + b = " << (a + b) << endl;
     cout << "a - b = " << (a - b) << endl;
@@ -16,9 +17,9 @@ int main()
     cout << "a / b = " << (a / b) << endl;
     cout << "a % b = " << (a % b) << endl;
 
-    //Increment / Decrement Operator
+    //Increment / Decrement Operator or Unary Opretors
     //a++;
-    cout << "\nIncrement / Decrement Operators:" << endl;
+    cout << "\nIncrement / Decrement Operators / Unary Opretors:" << endl;
     cout << "a + + = " << ++a << endl;
     cout << "b - - = " << --b << endl;
 
