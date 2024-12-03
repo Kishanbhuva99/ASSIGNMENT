@@ -3,7 +3,7 @@ program should provide hints if the guess is too high or too low. Use loops to a
 the user multiple attempts*/
 
 #include <iostream>
-//#include <cstdlib>
+#include <cstdlib>
 #include <ctime>
 
 using namespace std;
